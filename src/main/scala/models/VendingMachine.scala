@@ -2,7 +2,7 @@ package models
 
 import scala.collection.mutable
 
-class VendingMachine (private var items : mutable.Map[String,Int], var coins : List[Int] , var notes : List[Int]){
+case class VendingMachine (private var items : mutable.Map[String,Int], var coins : List[Int] , var notes : List[Int]){
 
 //   var items : scala.collection.mutable.Map[String, Int]
 //   var coins : List[Int]
